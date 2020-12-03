@@ -1,0 +1,10 @@
+.list-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* max-width: 1440px; */
+  width: 100vw;
+}
+.body-head {
+  text-align: center;
+  padding: 1rem;
+}

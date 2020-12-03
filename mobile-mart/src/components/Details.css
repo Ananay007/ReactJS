@@ -1,0 +1,91 @@
+.rating-made {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.btn {
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  transition: all 0.5s ease-in-out;
+  margin: 0 5px;
+}
+.btn-night {
+  background: green;
+  color: white;
+  border: 0.05rem solid green;
+}
+.btn-night:hover {
+  background: black;
+  color: green;
+}
+.btn-white {
+  background: #fff;
+  color: black;
+  border: 0.05rem solid black;
+}
+.btn-white:hover {
+  color: white;
+  background: black;
+  border: 0.05rem solid white;
+}
+.fas {
+  margin-right: 5px;
+}
+.rating {
+  font-size: 0.6rem;
+}
+.money {
+  padding: 1rem;
+  font-size: 1.1rem;
+  color: #555;
+  text-align: left;
+}
+.money .tag {
+  padding-left: 10px;
+  font-size: 2rem;
+  color: #b12704;
+}
+select {
+  width: 150px;
+  height: 30px;
+  background: #333;
+  color: white;
+  margin-top: 20px;
+}
+.price-model {
+  display: flex;
+  justify-content: space-between;
+}
+.reviews {
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+.review-title {
+  text-align: left;
+}
+.review {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.user {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.user-detail {
+  display: flex;
+  width: 10rem;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.6rem;
+}
+.rev-para {
+  margin-left: 20px;
+  width: 40rem;
+}

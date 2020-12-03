@@ -1,0 +1,39 @@
+form {
+  box-shadow: 10px 10px 15px 10px rgba(0, 0, 0, 0.2);
+  background: white;
+  margin-bottom: 2rem;
+  width: 70%;
+}
+form input[type="text"],
+input[type="number"] {
+  margin: 0.5rem 1rem;
+  border-radius: 3px;
+}
+#opt-sel {
+  background: #333;
+  color: white;
+  margin-left: 13px;
+  border-radius: 3px;
+}
+.shipping-buttons {
+  display: flex;
+  width: 500px;
+  font-size: 0.8rem;
+  margin: 1rem 0;
+}
+
+.free-shipping,
+.next-day {
+  border: 0.04rem solid #555;
+  margin: 0 10px;
+  border-radius: 3px;
+  padding: 0.05rem;
+}
+.next-day {
+  background: #333;
+  color: aliceblue;
+}
+
+.free-shipping {
+  margin-left: 1rem;
+}

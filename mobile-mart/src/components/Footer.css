@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 1.6rem 0.4rem;
+  color: white;
+  background: black;
+  margin-top: 3rem;
+}
+
+.link-tags ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link-tags ul li {
+  padding: 0 1rem;
+}
+.link-tags ul li a {
+  text-decoration: none;
+  color: wheat;
+  font-size: 1.5rem;
+}

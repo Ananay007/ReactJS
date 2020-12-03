@@ -1,0 +1,38 @@
+.cardDetails {
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 0.03rem solid #555;
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  background: white;
+}
+
+input {
+  margin: 1rem 0;
+  border-radius: 1px;
+}
+input #expiry {
+  width: 10px;
+}
+.paypal {
+  display: flex;
+  justify-content: space-between;
+  border: 0.03rem solid #555;
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin: 1rem 0;
+  background: white;
+}
+.paypal p {
+  color: #666;
+  font-size: 0.8rem;
+}
+.paypal img {
+  height: 100px;
+  width: 100px;
+}
+label {
+  padding: 0 0.5rem;
+  font-weight: bold;
+}

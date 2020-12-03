@@ -1,0 +1,27 @@
+.shop-cart-col {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem 0.3rem;
+  width: 70%;
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+}
+.img-details {
+  display: flex;
+  padding: 0 1rem;
+}
+.product-details {
+  display: flex;
+  flex-direction: column;
+  padding: 0.3rem 0.5rem;
+}
+.remove-add-button {
+  display: flex;
+  margin: 0 1rem;
+}
+.tag {
+  color: #b12704;
+  font-size: 1.1rem;
+}
